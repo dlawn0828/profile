@@ -1,0 +1,73 @@
+section {
+    display: flex;
+}
+article {
+    flex: 3;
+    background-color: white;
+    border: 3px double dimgray;
+    margin-right: 10px;
+    padding: 20px 40px;
+}
+aside {
+    flex: 1;
+    background-color: white;
+    margin-left: 10px;
+}
+footer {
+    margin-top: 50px;
+    padding-bottom: 5px;
+}
+article, aside {
+    height: calc(100vh-200px);
+}
+body {
+    background-color: rgb(255, 255, 200);
+}
+header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+nav {
+    background-color: white;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 50px;
+}
+nav a {
+    font-size: 18px;
+}
+article h3 {
+    font-weight: 500;
+}
+table th{
+    text-align: center;
+}
+td {
+    font-size: small;
+    text-align: center;
+}
+aside div {
+    margin-bottom: 50px;
+}
+aside h5 {
+    text-align: center;
+    font-weight: 700;
+}
+aside p {
+    text-align: center;
+    line-height: 0.8;
+}
+footer h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+footer p {
+    margin: 0px 20px 0px 100px;
+    font-size: 10px;
+    text-align: right;
+}
